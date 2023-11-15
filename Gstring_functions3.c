@@ -65,8 +65,7 @@ char *str_at(char *dest, char *src, int n)
  */
 char *str_hr(char *s, char c)
 {
-	do
-	{
+	do {
 		if (*s == c)
 			return (s);
 	} while (*s++ != '\0');
